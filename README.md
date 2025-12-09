@@ -93,7 +93,7 @@ php cleanup.php [options]
    The script scans Joomla tables and columns for image references, including HTML and JSON fields.
 
 2. **Filesystem Scan**  
-   It scans the `/images` folder recursively and excludes whitelisted folders and the `/unused` folder.
+   It scans the `/images` folder recursively and excludes whitelisted folders.
 
 3. **Determine Unused Images**  
    Compares filesystem images against database references to identify unused files.
@@ -111,8 +111,8 @@ php cleanup.php [options]
 ## Notes
 
 - Always **backup your site** before running the script, especially if using `--delete`.
-- Whitelisted folders and `/unused` are never modified.
-- Works best on Joomla sites using standard table structures. Custom extensions may require adjustments.
+- Whitelisted folders are never modified.
+- Works only on Joomla sites using standard table structures. Custom extensions may require adjustments.
 
 ---
 
