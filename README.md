@@ -13,6 +13,7 @@ It scans the `/images` folder, compares images against references in the databas
 - Supports major Joomla tables:
   - `content`
   - `categories`
+  - `contact_details`
   - `menu`
   - `modules`
   - `fields_values`
